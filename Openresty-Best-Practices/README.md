@@ -1,10 +1,10 @@
-## Openresty-Best-Practices
+# Openresty-Best-Practices
 
-《OpenResty 最佳实践》代码实践 
+《OpenResty 最佳实践》代码实践
 
 原书地址： [openresty-best-practices](https://moonbingbing.gitbooks.io/openresty-best-practices)
 
-### 安装
+## 安装
 
 从[官网](http://openresty.org/en/download.html)下载最新的源码包:
 
@@ -33,7 +33,7 @@ LUAJIT_HOME=/opt/openresty/luajit
 export PATH=$PATH:$OPENRESTY_HOME/bin:$LUAJIT_HOME/bin
 ```
 
-### 推荐阅读
+## 推荐阅读
 
 [agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)
 
