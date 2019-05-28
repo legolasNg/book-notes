@@ -1,6 +1,6 @@
 # Openresty-Best-Practices
 
-《OpenResty 最佳实践》代码实践
+《OpenResty 最佳实践》
 
 原书地址： [openresty-best-practices](https://moonbingbing.gitbooks.io/openresty-best-practices)
 
