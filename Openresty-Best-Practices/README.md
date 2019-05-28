@@ -35,8 +35,8 @@ export PATH=$PATH:$OPENRESTY_HOME/bin:$LUAJIT_HOME/bin
 
 ## 推荐阅读
 
-[agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)
+- [agentzh的Nginx教程](https://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)
 
-[programming-openresty-zh](https://github.com/iresty/programming-openresty-zh)
+- [programming-openresty-zh](https://github.com/iresty/programming-openresty-zh)
 
-[Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+- [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
