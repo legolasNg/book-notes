@@ -36,15 +36,15 @@ func main() {
 
 func lissajous(out io.Writer) {
 	const (
-		cycle   = 5					// 完整的x振荡器变化的个数
-		res     = 0.001				// 角度分辨率
-		size    = 100				// 图像画布包含[-size..+size]
-		nframes = 64				// 动画中的帧数
-		delay   = 8					// 以10ms为单位的帧间延迟
+		cycle   = 5     // 完整的x振荡器变化的个数
+		res     = 0.001 // 角度分辨率
+		size    = 100   // 图像画布包含[-size..+size]
+		nframes = 64    // 动画中的帧数
+		delay   = 8     // 以10ms为单位的帧间延迟
 	)
-	freq := rand.Float64() * 3.0				// y振荡器的相对频率
+	freq := rand.Float64() * 3.0 // y振荡器的相对频率
 	anim := gif.GIF{LoopCount: nframes}
-	phase := 0.0								// 相位差、
+	phase := 0.0 // 相位差、
 	// 每个迭代创建一个动画帧
 	for i := 0; i < nframes; i++ {
 		// 创建一个201x201大小的画板
