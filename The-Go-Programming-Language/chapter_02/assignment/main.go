@@ -104,12 +104,16 @@ func assignability() {
 	// 复合类型的字面量表达式，隐式地给每一个元素赋值
 	medals := []string{"gold", "silver", "bronze"}
 	// 等同于
+	// medals := make([]string, 3)
 	// medals[0] = "gold"
-	// medals[0] = "silver"
-	// medals[0] = "bronze"
-	fmt.Printf("medals is %v", medals)
+	// medals[1] = "silver"
+	// medals[2] = "bronze"
+	fmt.Printf("medals is %v\n", medals)
 
 	// 赋值只有在值对于变量类型是可赋值的时候才合法
+	// 规则很简单，类型必须精准匹配，nil可以被赋给任何接口变量或引用类型
+
+	// 两个值使用==和!=进行比较与可赋值性相关：任何比较中，第一个操作数相对于第二个操作数的类型必须是可赋值的，或者可以反过来赋值
 }
 
 func main() {

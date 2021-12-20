@@ -21,8 +21,10 @@ func bar() {
 
 func main() {
 	// 变量t在每次for循环的开始创建，变量x在循环的每次迭代中创建
-	for t:= 0; t < 10; t++ {
+	for t := 0; t < 10; t++ {
 		x := t + 1
 		fmt.Printf("t = %d, x = %d\n", t, x)
 	}
+
+	foo()
 }
