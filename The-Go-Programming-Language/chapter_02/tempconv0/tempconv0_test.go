@@ -34,10 +34,10 @@ func Example_compare() {
 
 func Example_test() {
 	c := FToC(212.0)
-	fmt.Println(c.String()) // "100℃"
-	fmt.Printf("%v\n", c)   // "100℃"; 不需要显式调用字符串
-	fmt.Printf("%s\n", c)   // "100℃"
-	fmt.Println(c)          // "100℃"
+	fmt.Println(c.String()) // "100°C"
+	fmt.Printf("%v\n", c)   // "100°C"; 不需要显式调用字符串
+	fmt.Printf("%s\n", c)   // "100°C"
+	fmt.Println(c)          // "100°C"
 	fmt.Printf("%g\n", c)   // "100"；不调用字符串
 	fmt.Println(float64(c)) // "100"；不调用字符串
 }

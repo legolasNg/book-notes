@@ -26,5 +26,5 @@ func FToC(f Fahrenheit) Celsius {
 
 // 将名字为String的方法关联到Celsius类型
 func (c Celsius) String() string {
-	return fmt.Sprintf("%g℃", c)
+	return fmt.Sprintf("%g°C", c)
 }
